@@ -1,0 +1,47 @@
+export type District = {
+  name: string;
+  slug: string;
+  side: "avrupa" | "anadolu";
+};
+
+export const DISTRICTS: District[] = [
+  { name: "Adalar", slug: "adalar", side: "anadolu" },
+  { name: "Arnavutköy", slug: "arnavutkoy", side: "avrupa" },
+  { name: "Ataşehir", slug: "atasehir", side: "anadolu" },
+  { name: "Avcılar", slug: "avcilar", side: "avrupa" },
+  { name: "Bağcılar", slug: "bagcilar", side: "avrupa" },
+  { name: "Bahçelievler", slug: "bahcelievler", side: "avrupa" },
+  { name: "Bakırköy", slug: "bakirkoy", side: "avrupa" },
+  { name: "Başakşehir", slug: "basaksehir", side: "avrupa" },
+  { name: "Bayrampaşa", slug: "bayrampasa", side: "avrupa" },
+  { name: "Beşiktaş", slug: "besiktas", side: "avrupa" },
+  { name: "Beykoz", slug: "beykoz", side: "anadolu" },
+  { name: "Beylikdüzü", slug: "beylikduzu", side: "avrupa" },
+  { name: "Beyoğlu", slug: "beyoglu", side: "avrupa" },
+  { name: "Büyükçekmece", slug: "buyukcekmece", side: "avrupa" },
+  { name: "Çatalca", slug: "catalca", side: "avrupa" },
+  { name: "Çekmeköy", slug: "cekmekoy", side: "anadolu" },
+  { name: "Esenler", slug: "esenler", side: "avrupa" },
+  { name: "Esenyurt", slug: "esenyurt", side: "avrupa" },
+  { name: "Eyüpsultan", slug: "eyupsultan", side: "avrupa" },
+  { name: "Fatih", slug: "fatih", side: "avrupa" },
+  { name: "Gaziosmanpaşa", slug: "gaziosmanpasa", side: "avrupa" },
+  { name: "Güngören", slug: "gungoren", side: "avrupa" },
+  { name: "Kadıköy", slug: "kadikoy", side: "anadolu" },
+  { name: "Kağıthane", slug: "kagithane", side: "avrupa" },
+  { name: "Kartal", slug: "kartal", side: "anadolu" },
+  { name: "Küçükçekmece", slug: "kucukcekmece", side: "avrupa" },
+  { name: "Maltepe", slug: "maltepe", side: "anadolu" },
+  { name: "Pendik", slug: "pendik", side: "anadolu" },
+  { name: "Sancaktepe", slug: "sancaktepe", side: "anadolu" },
+  { name: "Sarıyer", slug: "sariyer", side: "avrupa" },
+  { name: "Şile", slug: "sile", side: "anadolu" },
+  { name: "Şişli", slug: "sisli", side: "avrupa" },
+  { name: "Silivri", slug: "silivri", side: "avrupa" },
+  { name: "Sultanbeyli", slug: "sultanbeyli", side: "anadolu" },
+  { name: "Sultangazi", slug: "sultangazi", side: "avrupa" },
+  { name: "Tuzla", slug: "tuzla", side: "anadolu" },
+  { name: "Ümraniye", slug: "umraniye", side: "anadolu" },
+  { name: "Üsküdar", slug: "uskudar", side: "anadolu" },
+  { name: "Zeytinburnu", slug: "zeytinburnu", side: "avrupa" },
+];

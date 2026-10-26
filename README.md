@@ -7,3 +7,7 @@ a quote request.
 Built solo, 2026. Next.js, TypeScript, Tailwind, Framer Motion.
 
 Status: not deployed.
+
+![Home page](docs/images/home.png)
+
+![Recent moves](docs/images/recent-moves.png)
